@@ -10,5 +10,5 @@
 
 ### Screenshots
 
-<img src="/screenshots/img-1" width="400"><img src="/screenshots/img-2" width="400">
-<img src="/screenshots/img-3" width="400"><img src="/screenshots/img-4" width="400">
+<img src="screenshots/img-1.png" width="400"><img src="screenshots/img-2.png" width="400">
+<img src="screenshots/img-3.png" width="400"><img src="screenshots/img-4.png" width="400">
