@@ -7,12 +7,12 @@ router.get("/new", (req, res) => {
 });
 
 router.get("/edit/:id", async (req, res) => {
-  const article = await Article.findById(req.param.id);
+  const article = await Article.findById(req.params.id);
   res.render("articles/edit", { article: article });
 });
 
 router.get("/:slug", async (req, res) => {
-  const article = await Article.findOne({ slug: req.params.id.slug });
+  const article = await Article.findOne({ slug: req.params.slug });
   if (article == null) res.redirect("/");
   res.render("articles/show", { article: article });
 });
